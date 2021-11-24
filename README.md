@@ -9,11 +9,11 @@ https://openweathermap.org/api
 
 ## DEMO Screenshots
 ###### Main Page (before search)
-!["Main Page Before Search"]()
+!["Main Page Before Search"](/docs/weather-app-before-search.jpg)
 ###### Main Page (after search)
-!["Main Page After Search"]()
+!["Main Page After Search"](/docs/weather-app-after-search.jpg)
 ###### Page responsive to screen size (Mobile Friendly!)
-!["Page responsive to screen size for mobile"]()
+!["Page responsive to screen size for mobile"](/docs/weather-app-responsive.jpg)
 
 ## How to setup and get it run on local
 
