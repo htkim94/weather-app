@@ -7,6 +7,12 @@ This is a simple weather app built with react. The feature of the app includes s
 This project's weather data gets fetched from OpenWeather.
 https://openweathermap.org/api
 
+## DEMO on github page
+
+This weather app's demo is live on github page! Click on the link below to try out the app!
+
+https://htkim94.github.io/weather-app/
+
 ## DEMO Screenshots
 ###### Main Page (before search)
 !["Main Page Before Search"](/docs/weather-app-before-search.jpg)
