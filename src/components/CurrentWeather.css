@@ -1,0 +1,50 @@
+.current-container {
+  display: flex;
+  width: 320px;
+  height: 240px;
+  justify-content: space-between;
+  margin: 15px 0px 20px 0px;
+  padding: 10px;
+}
+
+.current-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.current-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 10px;
+  background-color: lightslategray;
+  border-radius: 10px;
+}
+
+.current-temps {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.current-temps > div {
+  margin-bottom: 10px;
+}
+
+.etc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.humidity {
+  margin-bottom: 10px;
+}
+
+h2, h4 {
+  color: whitesmoke;
+}
