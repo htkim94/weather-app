@@ -30,17 +30,10 @@ function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
-      <Search setCity={setCity} />
-      {error ? (
-        <ErrorPage />
-      ) : (
-        <>
-          {current.name ? <CurrentWeather current={current} /> : null}
-          {forecast.length !== 0 ? (
-            <FiveDaysContainer forecast={forecast} />
-          ) : null}
-        </>
-      )}
+      <Search setCity={setCity} setError={setError} />
+      {error ? <ErrorPage /> : null}
+      {current.name ? <CurrentWeather current={current} /> : null}
+      {forecast.length !== 0 ? <FiveDaysContainer forecast={forecast} /> : null}
     </div>
   );
 }

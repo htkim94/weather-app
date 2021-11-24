@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Search.css";
 
-export default function Search({ setCity }) {
+export default function Search({ setCity, setError }) {
   const [cityName, setCityName] = useState("");
 
   const onCityNameChange = (e) => {
@@ -10,6 +10,7 @@ export default function Search({ setCity }) {
 
   const formSubmit = (e) => {
     e.preventDefault();
+    setError("");
     setCity(cityName);
     setCityName("");
   };
